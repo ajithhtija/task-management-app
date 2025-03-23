@@ -24,19 +24,38 @@ header {
 h1 {
     font-size: 32px;
 }
-/* #upcomingTasks {
+#priorityFilter{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
     background-color: #f7f7f7;
-    padding: 20px;
-    margin-top: 20px;
-    width:inherit;
-} */
-
+}
+#clearFilters{
+    padding: 10px 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+    size:10px;
+}
+#upcomingTaskList li:hover{
+    background-color: #f3f583;
+}
+#completedTaskList li:hover{
+    background-color: #5ecc6d;
+}
+#overdueTaskList li:hover{
+    background-color: #e4a086;
+}
+    
 .filters {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-
+h2{
+    padding: 10px;
+}
 .filters input, .filters select {
     padding: 8px;
     margin-right: 10px;
@@ -91,6 +110,7 @@ button:hover {
 .task-form {
     background-color: #fff;
     padding: 20px;
+    border-radius: 30px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -110,4 +130,10 @@ button:hover {
 
 .task-form button:hover {
     background-color: #45a049;
+}
+#searchInput{
+    width: 100%;
+    padding: 10px;
+    border-radius: 30px;
+    margin-bottom: 10px;
 }
