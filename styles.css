@@ -22,6 +22,10 @@ header {
 }
 
 h1 {
+    border: #333 solid 2px;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: lightgreen;
     font-size: 32px;
 }
 #priorityFilter{
